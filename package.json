@@ -1,0 +1,37 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "b:webpack": "rimraf webpack_dist/ && webpack",
+    "b:webpack-mini": "rimraf webpack_dist_mini/ && webpack",
+    "gulp": "gulp",
+    "gulp:demo": "gulp demo",
+    "rollup": "rimraf rollup_dist/ && rollup -c rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "css-loader": "^5.0.1",
+    "gulp": "^4.0.2",
+    "html-webpack-plugin": "^5.0.0",
+    "inquirer": "^7.3.3",
+    "jquery": "^3.5.1",
+    "less": "^4.1.1",
+    "less-loader": "^8.0.0",
+    "raw-loader": "^4.0.2",
+    "rollup": "^2.38.5",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "style-loader": "^2.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.20.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "help.css": "^0.0.6"
+  }
+}
